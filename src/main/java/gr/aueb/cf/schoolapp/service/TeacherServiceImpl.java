@@ -34,7 +34,7 @@ public class TeacherServiceImpl implements ITeacherService {
     }
 
     @Override
-    public Teacher updateteacher(TeacherUpdateDTO dto) throws TeacherNotFoundException, TeacherDAOException {
+    public Teacher updateTeacher(TeacherUpdateDTO dto) throws TeacherNotFoundException, TeacherDAOException {
         Teacher teacher;
 
         try {

@@ -11,7 +11,7 @@ import java.util.List;
 
 public interface ITeacherService {
     Teacher insertTeacher(TeacherInsertDTO dto) throws TeacherDAOException;
-    Teacher updateteacher(TeacherUpdateDTO dto) throws TeacherNotFoundException, TeacherDAOException;
+    Teacher updateTeacher(TeacherUpdateDTO dto) throws TeacherNotFoundException, TeacherDAOException;
     void deleteTeacher(Integer id) throws TeacherNotFoundException, TeacherDAOException;
     Teacher getTeacherById(Integer id) throws TeacherNotFoundException, TeacherDAOException;
     List<Teacher> getFilteredTeachers(FiltersDTO filters) throws TeacherDAOException;
